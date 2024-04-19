@@ -5,9 +5,9 @@ import adobe from "../../assets/adobe.png";
 import facebook from "../../assets/facebook.png";
 import microsoft from "../../assets/microsoft.png";
 import facebookicon from "../../assets/facebook-icon.png";
-import twittericon from "../../assets/twitter.png";
-import youtubeicon from "../../assets/youtube.png";
+import githubicon from "../../assets/icons8-github-130.png";
 import instagramicon from "../../assets/instagram.png";
+import linkedin from "../../assets/icons8-linkedin-130.png";
 
 const Contact = () => {
   return (
@@ -43,10 +43,38 @@ const Contact = () => {
             Submit
           </button>
           <div className="links">
-            <img src={facebookicon} alt="Facebook" className="link" />
-            <img src={twittericon} alt="Twitter" className="link" />
-            <img src={youtubeicon} alt="Youtube" className="link" />
-            <img src={instagramicon} alt="Instagram" className="link" />
+            <a
+              class="facebook"
+              href="https://www.facebook.com/profile.php?id=100009398955476"
+              target={facebookicon}
+              title="GFG_facebook"
+            >
+              <img src={facebookicon} alt="Facebook" className="link" />
+            </a>
+            <a
+              class="git"
+              href="https://github.com/Alishahab1442"
+              title="Github"
+              target={githubicon}
+            >
+              <img src={githubicon} alt="Github" className="link" />
+            </a>
+            <a
+              class="git"
+              href="https://www.linkedin.com/in/ali-shahab-b1b622276/"
+              title="linkedin"
+              target={linkedin}
+            >
+              <img src={linkedin} alt="linkedin" className="link" />
+            </a>
+            <a
+              class="git"
+              href="https://www.instagram.com/alishahab1442/"
+              title="instagram"
+              target={instagramicon}
+            >
+              <img src={instagramicon} alt="instagram" className="link" />
+            </a>
           </div>
         </form>
       </div>
