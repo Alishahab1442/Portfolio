@@ -1,8 +1,8 @@
 import React from "react";
 import "./Skill.css";
-import UIDesign from "../../assets/ui-design.png";
-import webdesign from "../../assets/website-design.png";
-import appdesign from "../../assets/app-design.png";
+import coursera from "../../assets/coursera.png";
+import LGU from "../../assets/LGU.png";
+import nexskill from "../../assets/nexskill.png";
 
 const Skill = () => {
   return (
@@ -14,36 +14,32 @@ const Skill = () => {
       </span>
       <div className="skillbars">
         <div className="skillbar">
-          <img src={UIDesign} alt="" />
+          <img src={LGU} alt="" />
           <div className="skillbartext">
-            <h2>UI/UX Design</h2>
+            <h2>Lahore Garrision University</h2>
             <p>
-              I am a UI/UX designer creating intuitive and visually appealing
-              digital experiences.
+              I graduated from Lahore Garrison University in Computer Science.
             </p>
           </div>
         </div>
       </div>
       <div className="skillbars">
         <div className="skillbar">
-          <img src={webdesign} alt="" />
+          <img src={nexskill} alt="" />
           <div className="skillbartext">
-            <h2>Website Design</h2>
-            <p>
-              I am a web designer with creating visually appealing and
-              user-friendly websites.
-            </p>
+            <h2>NexSkill</h2>
+            <p>I got certificate from nexSkill in MERN stack development.</p>
           </div>
         </div>
       </div>
       <div className="skillbars">
         <div className="skillbar">
-          <img src={appdesign} alt="" />
+          <img src={coursera} alt="" />
           <div className="skillbartext">
-            <h2>Web App Design</h2>
+            <h2>Coursera</h2>
             <p>
-              I am a Web App Designer designing and implementing user-friendly
-              web applications
+              I achieved online certificates from different universities of
+              coursera.
             </p>
           </div>
         </div>

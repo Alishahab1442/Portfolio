@@ -11,13 +11,16 @@
   padding: 0 1rem;
 }
 .workstitle {
+  color: rgb(37, 119, 186);
   margin: 1rem 0;
   font-size: 3rem;
 }
 .worksDesc {
-  font-weight: 300;
-  font-size: 1rem;
   max-width: 45rem;
+  padding: 1rem;
+  font-size: medium;
+  font-weight: 300;
+  margin-bottom: 1rem;
 }
 .worksImgs {
   display: flex;

@@ -8,11 +8,11 @@
 }
 .bg {
   position: absolute;
-  top: 0rem;
-  right: 0;
-  z-index: -1;
+  top: 5rem;
+  right: 45px;
+  z-index: 0;
   object-fit: cover;
-  height: 80vh;
+  height: 70vh;
 }
 .introcontent {
   height: 100vh;
@@ -28,8 +28,8 @@
   font-size: 1.75rem;
   font-weight: 100;
 }
-.intoname {
-  color: aqua;
+.introname {
+  color: rgb(37, 119, 186);
 }
 .intropara {
   font-size: medium;

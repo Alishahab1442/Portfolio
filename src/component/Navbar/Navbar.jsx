@@ -3,7 +3,7 @@ import "./Navbar.css";
 import logo from "../../assets/logo 2.png";
 import { Link } from "react-scroll";
 import contactImg from "../../assets/contact.png";
-import menu from "../../assets/menu.png";
+import menu from "../../assets/icons8-menu-69.png";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -44,17 +44,6 @@ const Navbar = () => {
             className="desktopmenulistitem"
           >
             Portfolio
-          </Link>
-          <Link
-            activeClass="active"
-            to="clients"
-            spy={true}
-            smooth={true}
-            offset={-50}
-            duration={500}
-            className="desktopmenulistitem"
-          >
-            Client
           </Link>
         </div>
         <button
@@ -114,18 +103,6 @@ const Navbar = () => {
             onClick={() => setShowMenu(false)}
           >
             Portfolio
-          </Link>
-          <Link
-            activeClass="active"
-            to="clients"
-            spy={true}
-            smooth={true}
-            offset={-50}
-            duration={500}
-            className="listitem"
-            onClick={() => setShowMenu(false)}
-          >
-            Client
           </Link>
           <Link
             activeClass="active"

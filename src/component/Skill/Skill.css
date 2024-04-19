@@ -8,18 +8,22 @@
   justify-content: center;
   text-align: center;
   margin: 0 auto;
+  margin-bottom: 7rem;
 }
 .skilltitle {
+  color: rgb(37, 119, 186);
   font-size: 3rem;
   font-weight: 600;
   padding-top: 3rem;
   margin-bottom: 1.5rem;
+  margin-top: 1rem;
 }
 .skilldescription {
   font-weight: 400;
   font-size: 1rem;
   max-width: 51rem;
   padding: 0 2rem;
+  margin-bottom: 1rem;
 }
 .skillbars {
   margin: 0rem;
@@ -37,12 +41,16 @@
 .skillbar img {
   object-fit: cover;
   height: 3rem;
-  width: 3rem;
+  width: 8rem;
   margin-right: 2rem;
 }
 .skillbartext > p {
   font-size: 0.9rem;
+  margin-top: 0.5rem;
   font-weight: 200;
+}
+.skillbartext > h2 {
+  color: rgb(37, 119, 186);
 }
 
 @media screen and (max-width: 720px) {
