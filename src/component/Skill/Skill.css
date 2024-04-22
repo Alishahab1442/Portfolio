@@ -56,12 +56,24 @@
 @media screen and (max-width: 720px) {
   .skillbartext > p {
     font-size: 2vw;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+    font-family: "Poppins ", sans-serif;
   }
 }
 
 @media screen and (max-width: 480px) {
   .skillbartext > p {
     font-size: 3vw;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+    font-family: "Poppins ", sans-serif;
   }
   .skillbarimg {
     height: 2.25rem;
@@ -69,5 +81,16 @@
   }
   .skillbartext > h2 {
     font-size: 5vw;
+  }
+}
+@media screen and (max-width: 330px) {
+  .skillbartext > p {
+    font-size: 2vw;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+    font-family: "Poppins ", sans-serif;
   }
 }
