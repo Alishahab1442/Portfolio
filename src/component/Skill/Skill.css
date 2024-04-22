@@ -83,7 +83,7 @@
     font-size: 5vw;
   }
 }
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 400px) {
   .skillbartext > p {
     font-size: 2vw;
     margin: 0;
@@ -94,7 +94,7 @@
     font-family: "Poppins ", sans-serif;
   }
   .skillbar img {
-    height: 2rem;
+    height: 1rem;
     margin-right: 1rem;
     object-fit: cover;
     width: 15rem;
