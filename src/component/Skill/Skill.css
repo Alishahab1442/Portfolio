@@ -93,4 +93,10 @@
     background: transparent;
     font-family: "Poppins ", sans-serif;
   }
+  .skillbar img {
+    height: 2rem;
+    margin-right: 1rem;
+    object-fit: cover;
+    width: 15rem;
+  }
 }
